@@ -1,0 +1,14 @@
+{
+  "name": "sootube",
+  "version": "1.0.0",
+  "description": "Cloning youtube with vanilla and nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "integerzero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
