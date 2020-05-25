@@ -3,9 +3,9 @@ import routes from "../routes";
 
 const videoRouter = express.Router();
 
-globalRouter.get(routes.upload, (req, res) => res.send("Upload"));
-globalRouter.get(routes.videoDetail, (req, res) => res.send("Video Detail"));
-globalRouter.get(routes.editVideo, (req, res) => res.send("Edit Video"));
-globalRouter.get(routes.deleteVideo, (req, res) => res.send("Delete Videos"));
+videoRouter.get(routes.upload, (req, res) => res.send("Upload"));
+videoRouter.get(routes.videoDetail, (req, res) => res.send("Video Detail"));
+videoRouter.get(routes.editVideo, (req, res) => res.send("Edit Video"));
+videoRouter.get(routes.deleteVideo, (req, res) => res.send("Delete Videos"));
 
 export default videoRouter;
