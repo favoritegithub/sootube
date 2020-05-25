@@ -1,9 +1,9 @@
 doctype html
     html
         head
-            title Sootube
+            title #{pageTitle} | #{siteName}
         body
+            include ../partials/header
             main
                 block content
-            footer
-                span &copy Sootube
+            include ../partials/footer
